@@ -63,9 +63,8 @@ ________________________________________________________________________________
 ▶️ **Instructions to Run:**
 
 1. Run satellite_model.m to load all required initial parameters and configuration settings.
-2. Run initial_position.slx to generate initial positions for both the chaser and target spacecraft.
-3. Set position_control.m to simulation mode and execute batch simulations by selecting the desired model for fixed gain and for each optimisation method, which generates 100 data points for each scenario.
-4. Set position_control.m to plotting mode and re-run the script to load the generated datasets and visualize the results through plots.
+2. Execute position_control.m in simulation mode to perform batch simulations across fixed gain and optimisation methods, producing 100 data points per scenario. [Note: Initial conditions are generated automatically via initial_position.slx during each simulation run.]
+3. Set position_control.m to plotting mode and re-run the script to load the generated datasets and visualize the results through plots.
 
   ⚙️ Mode Selection:
    mode = 'simulate';   % Run batch simulations
